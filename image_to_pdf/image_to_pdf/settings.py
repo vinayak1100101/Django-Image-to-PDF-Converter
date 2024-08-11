@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(+8kden5pjt_n()b-tc3m$j3ia)22&_!@dwbgl9x=-=lh*fpo)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
